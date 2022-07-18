@@ -17,6 +17,9 @@ fun makeFish() {
 
     val myPlecostomus = Plecostomus()
     println(myPlecostomus.color)
+
+    myShark.eat()
+    myPlecostomus.eat()
 }
 
 fun main() {

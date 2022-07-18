@@ -7,14 +7,14 @@ abstract class AquariumFish{
 class Shark : AquariumFish(), FishAction {
     override val color: String = "gray"
     override fun eat() {
-        TODO("Not yet implemented")
+        println("hunt and eat fish")
     }
 }
 
 class Plecostomus : AquariumFish(), FishAction {
     override val color: String = "gold"
     override fun eat() {
-        TODO("Not yet implemented")
+        println("eat algae")
     }
 }
 
