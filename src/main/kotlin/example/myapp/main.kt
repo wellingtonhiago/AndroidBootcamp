@@ -11,6 +11,15 @@ fun buildAquarium() {
 
 }
 
+fun makeFish() {
+    val myShark = Shark()
+    println(myShark.color)
+
+    val myPlecostomus = Plecostomus()
+    println(myPlecostomus.color)
+}
+
 fun main() {
     buildAquarium()
+    makeFish()
 }
