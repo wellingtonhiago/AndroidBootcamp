@@ -9,9 +9,7 @@ fun buildAquarium() {
     myAquarium2.printSize()
 
     println("-------------")
-    val myAquarium3 = Aquarium(numberOfFish = 29)
-    myAquarium3.printSize()
-    myAquarium3.volume = 70
+    val myAquarium3 = Aquarium(length = 25, width = 25, height = 40)
     myAquarium3.printSize()
 
 }
