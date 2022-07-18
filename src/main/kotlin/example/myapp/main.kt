@@ -1,12 +1,9 @@
 package example.myapp
 
 fun buildAquarium() {
-    val myAquarium = Aquarium()
-    myAquarium.printSize()
 
-    println("-------------")
-    val myAquarium2 = Aquarium(height = 15)
-    myAquarium2.printSize()
+    val myTower = TowerTank(height = 40, diameter = 25)
+    myTower.printSize()
 
     println("-------------")
     val myAquarium3 = Aquarium(length = 25, width = 25, height = 40)
