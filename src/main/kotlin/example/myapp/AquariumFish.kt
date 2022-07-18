@@ -15,10 +15,13 @@ class Shark : FishColor, FishAction {
     }
 }
 
-class Plecostomus : FishColor, FishAction {
-    override val color: String = "gold"
+class Plecostomus : FishAction, FishColor by GoldColor {
     override fun eat() {
         println("eat algae")
     }
+}
+
+object GoldColor : FishColor {
+    override val color = "gold"
 }
 
